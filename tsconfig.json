@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "esModuleInterop": true,
+    "target": "es2022",
+    "noImplicitAny": true,
+    "moduleResolution": "bundler",
+    "strictNullChecks": true,
+    "types": ["node", "vitest/globals"],
+    "noErrorTruncation": true,
+    "jsx": "react-jsx",
+    "noEmit": true
+  },
+  "include": ["src", "vitest.config.ts"]
+}
